@@ -25,7 +25,7 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
           ${reverse ? styles.blackText : styles.whiteText}
           ${styles.descriptionText}`}>{description}</p>
           {showBtn && (
-            <Button assetUrl={assets.expo} link="deployed nft marketplace rn" />
+            <Button assetUrl={assets.expo} link="https://expo.dev/@kvbxss/react-native-app-ui-ux?serviceType=classic&&distribution=expo-go" />
           )}
         </div>
 
